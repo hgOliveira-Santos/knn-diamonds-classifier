@@ -15,7 +15,8 @@ Além de servir como um estudo aplicado de KNN, o projeto demonstra etapas funda
 
 ## Etapas do Projeto
 
-1. Download do Dataset: O notebook automatiza a importação e o salvamento do dataset de diamantes.
+1. Download do Dataset:
+  - O notebook automatiza a importação e o salvamento do dataset de diamantes.
 2. Pré-processamento:
   - Filtragem de colunas relevantes (carat, depth, table, x, y, z).
   - Normalização das features numéricas.
@@ -40,11 +41,3 @@ Além de servir como um estudo aplicado de KNN, o projeto demonstra etapas funda
   - `pandas` e `numpy` (manipulação de dados)
   - `scikit-learn` (modelo KNN, validação, métricas, pré-processamento)
   - `matplotlib` (gráficos e visualizações)
-
-## Estrutura do Projeto
-
-├── dataset/
-    └── diamonds.csv # Conjunto de dados original (baixado automaticamente)
-├── knn_diamond_classifier.ipynb # Notebook principal com todo o pipeline
-├── README.md # Este arquivo
-
